@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Mercedes_Benz</string>
+    <string name="order_mercedes">Order Mercedes-Benz</string>
+    <string name="one_mercedes">One Mercedes</string>
+    <string name="five_mercedes">Five Mercedes</string>
+    <string name="ten_mercedes">Ten Mercedes</string>
+    <string name="one_hundred">One Hundred Mercedes</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="vehicle_lineup">Select vehicle model</string>
+    <string name="vehicle_type">Select vehicle type</string>
+    <string name="sendans">Sendans</string>
+    <string name="suvs">SUVs</string>
+    <string name="coupes">Coupes</string>
+    <string name="convertibles">Convertibles/Roadsters</string>
+    <string name="additional">Additional Models</string>
+    <string name="electric">Electric and Hybrid Models</string>
+
+    <string name="a_class_sedan">A-Class Sedan</string>
+    <string name="c_class_sedan">C-Class Sedan</string>
+    <string name="e_class_sedan">E-Class Sedan</string>
+    <string name="s_class_sedan">S-Class Sedan</string>
+    <string name="cla_coupe">CLA Coupe</string>
+    <string name="cls_coupe">CLS Coupe</string>
+
+    <string name="gla_suv">GLA SUV</string>
+    <string name="glb_suv">GLB SUV</string>
+    <string name="glc_suv">GLC SUV</string>
+    <string name="gle_suv">GLE SUV</string>
+    <string name="gls_suv">GLS SUV</string>
+    <string name="g_class_suv">G-Class SUV</string>
+
+    <string name="c_class_coupe">C-Class Coupe</string>
+    <string name="e_class_coupe">E-Class Coupe</string>
+    <string name="s_class_coupe">S-Class Coupe</string>
+
+
+    <string name="c_class_cabriolet">C-Class Cabriolet</string>
+    <string name="e_class_cabriolet">E-Class Cabriolet</string>
+    <string name="s_class_cabriolet">S-Class Cabriolet</string>
+    <string name="sl_roadster">SL Roadster</string>
+    <string name="slc_roadster">SLC Roadster</string>
+    
+    <string name="maybach">Maybach</string>
+    <string name="amg">AMG</string>
+
+    <string name="eqa">EQA</string>
+    <string name="eqb">EQB</string>
+    <string name="eqc">EQC</string>
+    <string name="eqe">EQE</string>
+    <string name="eqs">EQS</string>
+
+    <string name="choose_color">Choose color</string>
+
+    <string name="black">Black</string>
+    <string name="white">White</string>
+    <string name="silver">Silver</string>
+    <string name="gray">Gray</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="brown">Brown</string>
+    <string name="yellow">Yellow</string>
+    <string name="orange">Orange</string>
+    <string name="purple">Purple</string>
+
+    <string name="choose_pickup_date">Choose Pickup Date</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="quantity">Quantity</string>
+    <string name="vehicle_model">Vehicle Model</string>
+    <string name="vehicle_des">Vehicle Type</string>
+    <string name="pickup_date">PickUp Date</string>
+    <string name="subtotal_price">Subtotal %s</string>
+    <string name="total_price">Total %s</string>
+    <string name="new_mercedes">New Mercedes Order</string>
+    <string name="order_details">Quantity: %1$s \nFlavor: %2$s \nPickup date: %3$s \nTotal: %4$s \n\nThank you!</string>
+    <string name="back_button">Back</string>
+    <plurals name="mercedes">
+        <item quantity="one">%d mercedes</item>
+        <item quantity="other">%d mercedes</item>
+    </plurals>
+</resources>
