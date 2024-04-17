@@ -1,8 +1,10 @@
-package com.nhathuy.cupcakes.viewmodel
+package com.nhathuy.mercedes.viewmodel
 
+import android.content.Context
+import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.ViewModel
-import com.nhathuy.cupcakes.data.DataSource
-import com.nhathuy.cupcakes.data.OrderUiState
+import com.nhathuy.mercedes.data.DataSource
+import com.nhathuy.mercedes.data.OrderUiState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -54,30 +56,35 @@ class OrderViewModel : ViewModel() {
  * When a specific model is selected by the user, we need to determine the corresponding type of that model.
  * The type will be used to display appropriate attributes related to the selected model.
      */
-    fun setModel(mercedesModel: String) {
-        _uiState.update { currentState: OrderUiState -> // Explicitly specify OrderUiState
-            val type = getTypeForModel(mercedesModel)
-            currentState.copy(model = mercedesModel, type = type)
-        }
+    fun setModel(mercedesModel: Int) {
+
     }
+//    private fun getResourceString(context: Context,id:Int):String{
+//        return context.resources.getString(id)
+//    }
+//
+//    private fun getTypeForModel(mercedesModel: Int): String {
+//
+//    }
+
+
     /*
     * Determine the type of Mercedes for the given model.
     * The type is determined based on the provided model by checking it against predefined lists of models in DataSource.
      */
-    private fun getTypeForModel(mercedesModel: String): String {
-        return when {
-            mercedesModel in DataSource.sendans_list -> "Sendans"
-            mercedesModel in DataSource.suvs_list -> "SUVs"
-            mercedesModel in DataSource.coupes_list -> "Coupes"
-            mercedesModel in DataSource.convertibles_list -> "Convertibles"
-            mercedesModel in DataSource.electric_list -> "Electric"
-            mercedesModel in DataSource.additional_list -> "Additional"
-            else -> "" // Handle cases where the model type is not found
+
+
+
+
+    /*
+    set the pickupcolor for this order's state and update the price
+     */
+    fun setColor(pickColor:String){
+        _uiState.update {
+            currentColor ->
+            currentColor.copy(color = pickColor)
         }
     }
-
-
-
     /*
      set the [pickupDate] for this order's state and update the price
      */

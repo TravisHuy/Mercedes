@@ -1,6 +1,6 @@
-package com.nhathuy.cupcakes.data
+package com.nhathuy.mercedes.data
 
-import com.example.cupcakes.R
+import com.nhathuy.mercedes.R
 
 object DataSource {
     val mercedes_type= listOf(R.string.sendans,R.string.suvs,R.string.convertibles,R.string.additional,R.string.electric)
@@ -16,5 +16,6 @@ object DataSource {
     val additional_list= listOf(R.string.maybach,R.string.amg)
 
     val quantityOptions= listOf(Pair(R.string.one_mercedes,1),Pair(R.string.ten_mercedes,10),Pair(R.string.one_hundred,100))
+
 
 }

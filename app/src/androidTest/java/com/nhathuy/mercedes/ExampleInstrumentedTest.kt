@@ -1,4 +1,4 @@
-package com.nhathuy.cupcakes
+package com.nhathuy.mercedes
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

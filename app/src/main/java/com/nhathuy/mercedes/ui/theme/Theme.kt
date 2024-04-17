@@ -1,4 +1,4 @@
-package com.nhathuy.cupcakes.ui.theme
+package com.nhathuy.mercedes.ui.theme
 
 import android.app.Activity
 import android.os.Build

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.cupcakes'
+    namespace 'com.nhathuy.mercedes'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.cupcakes"
+        applicationId "com.nhathuy.mercedes"
         minSdk 21
         targetSdk 33
         versionCode 1

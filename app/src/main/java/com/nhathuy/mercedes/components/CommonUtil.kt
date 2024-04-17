@@ -1,11 +1,11 @@
-package com.nhathuy.cupcakes.components
+package com.nhathuy.mercedes.components
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import com.example.cupcakes.R
+import com.nhathuy.mercedes.R
 
 @Composable
 fun FormattedPriceLabel(subtotal:String,modifier: Modifier=Modifier){

@@ -1,4 +1,4 @@
-package com.nhathuy.cupcakes.ui.theme
+package com.nhathuy.mercedes.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

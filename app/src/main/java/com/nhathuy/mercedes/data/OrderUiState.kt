@@ -1,4 +1,4 @@
-package com.nhathuy.cupcakes.data
+package com.nhathuy.mercedes.data
 
 data class OrderUiState(
     val quantity:Int=0,

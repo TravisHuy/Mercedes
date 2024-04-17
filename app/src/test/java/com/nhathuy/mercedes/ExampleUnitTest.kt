@@ -1,4 +1,4 @@
-package com.nhathuy.cupcakes
+package com.nhathuy.mercedes
 
 import org.junit.Test
 
